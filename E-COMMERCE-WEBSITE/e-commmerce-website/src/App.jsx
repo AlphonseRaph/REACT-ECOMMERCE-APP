@@ -2,20 +2,19 @@
 import './App.css'
 import Navbar from "./components/navbar";
 import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
-
+import {Shop} from "./pages/shop/shop"
+import {Cart} from "./pages/cart/cart";
 function App() {
   return (
-  <Router>
-    <div className="App">
-      <div className="nav-container">
-      <Navbar />
-      </div>
+ <div className="App">
+    <Router>
+        <Navbar />
       <Routes>
-        <Route path="/" /> 
-        <Route path="/cart" />
+        <Route path="/" element={<Shop />}/> 
+        <Route path="/cart" element={<Cart />}/>
       </Routes> 
-    </div> 
     </Router>
+  </div> 
   );
 
 }
