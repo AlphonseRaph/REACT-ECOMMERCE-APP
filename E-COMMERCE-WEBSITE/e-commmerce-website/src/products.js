@@ -13,40 +13,48 @@ export const PRODUCTS = [
         id: 1,
         productName: 'IPhone',
         productImage: product1,
+        price: 999,
     },
     {
         id: 2,
         productName: 'IPhone',
         productImage: product2,
+        price: 999,
     },
     {
         id: 3,
         productName: 'IPhone',
         productImage: product3,
+        price: 999,
     },
     {
         id: 4,
         productName: 'IPhone',
         productImage: product4,
+        price: 999,
     },
     {
         id: 5,
         productName: 'IPhone',
         productImage: product5,
+        price: 999,
     },
     {
         id: 6,
         productName: 'IPhone',
         productImage: product6,
+        price: 999,
     },
     {
         id: 7,
         productName: 'IPhone',
         productImage: product7,
+        price: 999,
     },
     {
         id: 8,
         productName: 'IPhone',
         productImage: product8,
+        price: 999,
     },
 ];

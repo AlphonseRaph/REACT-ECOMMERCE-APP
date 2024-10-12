@@ -11,6 +11,7 @@
          <p> <b>{productName}</b></p>
          <p>${price}</p>
        </div>
+       <button className='addToCartBttn'>Add to cart</button>
      </div>
    );
  };
